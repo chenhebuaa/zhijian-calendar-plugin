@@ -1,11 +1,12 @@
 {
   "name": "zhijian-calendar",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "通过飞书组织身份安全查询共享指尖日程。",
   "author": {
     "name": "Calendar Platform Team"
   },
   "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
   "keywords": [
     "calendar",
     "feishu",
@@ -27,6 +28,5 @@
       "检查日程数据是否为最新"
     ],
     "brandColor": "#3370FF"
-  },
-  "apps": "./.app.json"
+  }
 }
