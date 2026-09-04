@@ -1,0 +1,32 @@
+{
+  "name": "zhijian-calendar",
+  "version": "1.0.0",
+  "description": "通过飞书组织身份安全查询共享指尖日程。",
+  "author": {
+    "name": "Calendar Platform Team"
+  },
+  "skills": "./skills/",
+  "keywords": [
+    "calendar",
+    "feishu",
+    "zhijian"
+  ],
+  "interface": {
+    "displayName": "指尖日程",
+    "shortDescription": "查询经飞书鉴权的组织共享日程。",
+    "longDescription": "在 Codex 中按北京时间查询共享指尖日程；访问资格由服务端飞书组织身份和白名单共同校验。",
+    "developerName": "Calendar Platform Team",
+    "category": "Productivity",
+    "capabilities": [
+      "Read-only calendar search",
+      "Feishu organization authentication"
+    ],
+    "defaultPrompt": [
+      "查看我今天的共享日程",
+      "搜索本周包含指定关键词的活动",
+      "检查日程数据是否为最新"
+    ],
+    "brandColor": "#3370FF"
+  },
+  "apps": "./.app.json"
+}

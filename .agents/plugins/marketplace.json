@@ -1,0 +1,20 @@
+{
+  "name": "yuanxin-insight",
+  "interface": {
+    "displayName": "指尖日程（内部）"
+  },
+  "plugins": [
+    {
+      "name": "zhijian-calendar",
+      "source": {
+        "source": "local",
+        "path": "./plugins/zhijian-calendar"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
