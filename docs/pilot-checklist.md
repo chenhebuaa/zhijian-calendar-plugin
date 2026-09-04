@@ -25,7 +25,7 @@ service/.venv/bin/python -m pytest distribution/tests/e2e/test_calendar_plugin.p
 
 ## Codex 个人账号验收
 
-- [ ] 从私有 marketplace 的固定签名 tag 安装插件。
+- [ ] 从公开安装包 marketplace 的固定 release tag 安装插件。
 - [ ] 在 `/plugins` 中连接飞书，使用允许用户完成登录。
 - [ ] 新建会话后查询今天、本周、关键词和同步状态。
 - [ ] 相对日期按 Asia/Shanghai 解释，全日事件不虚构时间。
