@@ -18,12 +18,12 @@ python -m pytest -q
 ## 同事安装
 
 ```bash
-codex plugin marketplace add chenhebuaa/zhijian-calendar-plugin --ref v1.1.0 && codex plugin add zhijian-calendar@yuanxin-insight
+codex plugin marketplace add chenhebuaa/zhijian-calendar-plugin --ref v1.1.0 && codex plugin add zhijian-calendar@yuanxin-insight && codex mcp login zhijian_calendar
 ```
 
 在 Codex/ChatGPT 桌面端打开 `/plugins`，连接“指尖日程”，按提示用飞书登录，然后新建会话。服务端每次调用都会重新检查飞书租户和白名单；移出白名单后现有会话也会立即失效。
 
-升级 marketplace 后重新安装/升级插件并新建会话。回滚时将 marketplace ref 固定到上一个已验收的签名 tag；不要移动已有 tag。
+旧 marketplace 固定在旧标签时，先删除本地插件和 marketplace，再添加新标签、安装插件并新建会话。回滚时将 marketplace ref 固定到上一个已验收的签名 tag；不要移动已有 tag。
 
 ## 本地门禁
 
