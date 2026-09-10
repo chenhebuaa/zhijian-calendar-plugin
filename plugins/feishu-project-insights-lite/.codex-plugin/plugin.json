@@ -1,0 +1,25 @@
+{
+  "name": "feishu-project-insights-lite",
+  "version": "0.1.0-alpha.1",
+  "description": "按本人飞书权限综合分析已配置项目的进展、客户问题和风险，并引用来源。",
+  "author": {
+    "name": "Yuanxin Insight"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "飞书项目洞察 Lite",
+    "shortDescription": "综合项目文档与对客群，回答进展、客户问题和风险。",
+    "longDescription": "管理员配置多个项目；同事以本人飞书权限读取资料，获得带来源和读取缺口说明的项目分析。",
+    "developerName": "Yuanxin Insight",
+    "category": "Productivity",
+    "capabilities": [
+      "Project insights",
+      "Personal Feishu authorization"
+    ],
+    "defaultPrompt": [
+      "列出可查询的项目",
+      "分析指定项目的最新进展、客户未解决问题和风险"
+    ]
+  },
+  "mcpServers": "./.mcp.json"
+}
