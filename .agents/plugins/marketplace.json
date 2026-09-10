@@ -1,7 +1,7 @@
 {
   "name": "yuanxin-insight",
   "interface": {
-    "displayName": "\u6307\u5c16\u65e5\u7a0b\uff08\u5185\u90e8\uff09"
+    "displayName": "指尖日程（内部）"
   },
   "plugins": [
     {
@@ -9,18 +9,6 @@
       "source": {
         "source": "local",
         "path": "./plugins/zhijian-calendar"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Productivity"
-    },
-    {
-      "name": "feishu-project-insights-lite",
-      "source": {
-        "source": "local",
-        "path": "./plugins/feishu-project-insights-lite"
       },
       "policy": {
         "installation": "AVAILABLE",
