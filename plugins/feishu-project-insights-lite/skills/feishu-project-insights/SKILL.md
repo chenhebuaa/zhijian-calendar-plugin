@@ -1,6 +1,6 @@
 ---
 name: feishu-project-insights
-description: 使用飞书项目洞察Lite分析已绑定项目的进展、客户意见、下一步和风险；综合主文档、补充Docx与对客群消息。
+description: 使用原心项目管理插件分析已绑定项目的进展、客户意见、下一步和风险；综合主文档、补充Docx与对客群消息。
 ---
 
 # 项目综合洞察

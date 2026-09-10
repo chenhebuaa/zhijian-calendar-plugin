@@ -1,13 +1,13 @@
 # Yuanxin Insight Codex 插件（内部试用）
 
-## 飞书项目洞察 Lite 测试版
+## 原心项目管理插件 测试版
 
-测试标签：`v1.2.0-lite-preview.1`。在现有日历市场中新增项目洞察，日历插件仍为1.1.0。项目洞察连接 `https://projects.yuanxininsight.com/mcp`，同事无需在本机运行服务。
+测试标签：`v1.2.0-lite-preview.2`。在现有日历市场中新增项目洞察，日历插件仍为1.1.0。项目洞察连接 `https://projects.yuanxininsight.com/mcp`，同事无需在本机运行服务。
 
 首次安装，在已安装Codex CLI的终端依次执行：
 
 ```bash
-codex plugin marketplace add chenhebuaa/zhijian-calendar-plugin --ref v1.2.0-lite-preview.1
+codex plugin marketplace add chenhebuaa/zhijian-calendar-plugin --ref v1.2.0-lite-preview.2
 codex plugin add feishu-project-insights-lite@yuanxin-insight
 codex mcp login feishu-project-insights-lite
 ```
@@ -18,7 +18,7 @@ codex mcp login feishu-project-insights-lite
 
 依次验证：
 
-1. “用飞书项目洞察Lite列出可查询的项目。”
+1. “用原心项目管理插件列出可查询的项目。”
 2. “分析幻师COMMUNE的最新进展、客户尚未解决的问题和风险。”核对可读文档来源及读取缺口。
 3. 使用本人确实无权的已配置资料验证权限提示，不应出现正文。若暂无这样的资料，记录为未验收。
 
